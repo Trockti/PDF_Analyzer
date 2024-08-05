@@ -1,0 +1,20 @@
+# Ignora los archivo PDF
+*.pdf
+
+# Ignora archivos del sistema Mac 
+.DS_store
+
+# Ignora la carpeta node_modules
+node_modules
+
+# Ignora el output
+RAG_TXT.txt
+
+# Ignora los archivos relacionados a API keys
+.env
+
+# Ignora archivos de configuración SASS
+.sass-cache
+
+# Ignora la carpeta de entorno virtual
+.venv
