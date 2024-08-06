@@ -8,7 +8,7 @@ import os
 def extract_text_from_pdf(pdf_path, output_folder):
     text = ""
     with pdfplumber.open(pdf_path) as pdf:
-        with open(f"{output_folder}/extracted_text.txt", 'w') as file:
+        with open(f"{output_folder}/extracted_text.txt", 'w', encoding='utf-8') as file:
             for page in pdf.pages:
                 try:
                     file.write(page.extract_text() + "\n")
