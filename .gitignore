@@ -19,5 +19,7 @@ RAG_TXT.txt
 # Ignora la carpeta de entorno virtual
 .venv
 
-# Ignora la carpeta de output
-output_folder
+# Ignora las carpetas de output
+*/
+# Ignora archivo de tests
+test.py
